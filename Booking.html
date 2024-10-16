@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Optimized Title for the Booking Page -->
+    <title>Car Rental Booking in Uganda-Fast & Easy Booking | Car Safaris</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Book vans or minibuses for your travel needs in Uganda. Car Swift offers reliable and affordable car rental services with GPS navigation.">
+    <meta name="keywords" content="Car Rental Uganda, Van Rental, Minibus Rental, Online Booking, Car Swift, GPS Navigation">
+    <meta name="author" content="Car Swift">
+
+    <link rel="stylesheet" href="styleFile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header section -->
+        <header>
+            <div class="top-header">
+                <p><i class="fas fa-phone"></i> +256 123 456 789 | <i class="fas fa-envelope"></i> email@example.com</p>
+            </div>
+            
+            <div class="header-content">
+                <h1>MINI BUS RENTAL UGANDA</h1>
+
+                <!-- Navigation links -->
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="Home.html"><span>Home</span></a></li>
+                        <li><a href="Booking.html"><span>Booking</span></a></li>
+                        <li><a href="AvailableCars.html"><span>Available Cars</span></a></li>
+                        <li><a href="ContactUs.html"><span>Contact Us</span></a></li>
+                        <li><a href="GPSNavigation.html"><span>GPS Navigation</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main content section -->
+        <main class="main-content1">
+            <h2 class="page-title">Book Your Ride</h2>
+            
+            <div class="booking-container">
+                <div class="steps">
+                    <h3>How to Book</h3>
+                    <ol>
+                        <li>Select a car either with or without fuel</li>
+                        <li>Enter your pick-up location</li>
+                        <li>Enter your destination</li>
+                        <li>Choose your preferred vehicle type</li>
+                        <li>Contact us for price negotiation and car delivery</li>
+                    </ol>
+                </div>
+
+                <div class="form-section">
+                    <form id="booking-form">
+                        <div class="form-group">
+                            <label><b>Booking Type:</b></label>
+                            <div class="radio-group">
+                                <label><input type="radio" name="leaseType" value="dry"> Dry Lease (Car Without Fuel)</label><br>
+                                <label><input type="radio" name="leaseType" value="wet"> Wet Lease (Car With Fuel)</label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pLocation"><b>Pick-up Location</b></label>
+                            <div class="input-with-icon">
+                                <input type="text" id="pLocation" name="pLocation" required>
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="dLocation"><b>Drop-off Location</b></label>
+                            <div class="input-with-icon">
+                                <input type="text" id="dLocation" name="dLocation" required>
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cars"><b>Select Vehicle</b></label><br>
+                            <select id="cars" name="cars" required>
+                                <option value="">Choose a vehicle</option>
+                                <option value="minibus">Minibus</option>
+                                <option value="van">Van</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <br><button type="submit" class="btn btn-primary">Submit Booking</button>
+                        </div>
+                    </form>
+                    
+                    <div class="price-negotiation">
+                        <p><b>Need to discuss pricing?</b></p>
+                        <a href="ContactUs.html" class="btn btn-secondary">Contact Us for Price Negotiation</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer section -->
+        <footer class="footer">
+            <p>&copy; 2024 Car Swift. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
